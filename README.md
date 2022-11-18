@@ -24,7 +24,7 @@ Game Controls
 
 Instructions
 ------------
-Go to the [Releases](https://github.com/EvaxTheFox/shooter-game/releases/) Tab And You Will See A Section For The EXE
+Go to the [Latest Release](https://github.com/EvaxTheFox/shooter-game/releases/latest) Tab And You Will See A Section For The EXE
 <br>
 Or
 <br>
