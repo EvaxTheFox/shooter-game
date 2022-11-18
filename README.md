@@ -1,3 +1,5 @@
+![SHOOTING GAME](https://raw.githubusercontent.com/EvaxTheFox/shooter-game/main/data/title.png)
+------------
 My Python Shooter Game Made Using PyGame
 ==========================================================
 # Things i Made For This:
