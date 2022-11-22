@@ -6,6 +6,10 @@ try:
     import pygame
 except ImportError:
     os.system('pip install pygame')  # Automatically install PyGame
+try: 
+    import DiscordRPC
+except ImportError:
+    os.system('pip install DiscordRPC') # Automatically install DiscordRPC
 from collections import deque
 
 from sprites import (MasterSprite, Ship, Alien, Missile, BombPowerup,
