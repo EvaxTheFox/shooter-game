@@ -1,5 +1,11 @@
-import pygame
+
 import random
+import DiscordRPC
+import os
+try:
+    import pygame
+except ImportError:
+    os.system('pip install pygame')  # Automatically install PyGame
 from collections import deque
 
 from sprites import (MasterSprite, Ship, Alien, Missile, BombPowerup,
@@ -12,7 +18,7 @@ if not pygame.mixer:
     print('Warning, sound disabled')
 if not pygame.font:
     print('Warning, fonts disabled')
-
+rpc = DiscordRPC.RPC.Set_ID(app_id=1044681883042193428)
 BLUE = (0, 0, 255)
 RED = (255, 0, 0)
 
@@ -453,6 +459,12 @@ def main():
         for txt, pos in textOverlay:
             screen.blit(txt, pos)
         pygame.display.flip()
+
+
+rpc.set_activity(
+      state="Cool Game By EvaxTheFox On GitHub",
+      details="https://github.com/EvaxTheFox/shooter-game"
+    )
 
 
 if __name__ == '__main__':
